@@ -8,12 +8,13 @@
 
 #import "AppDelegate.h"
 #import "LoguinViewController.h"
+#import "HomeViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    LoguinViewController *lgvc=[[LoguinViewController alloc] init];
+     HomeViewController *lgvc=[[HomeViewController alloc] init];
     navCont =[[UINavigationController alloc] initWithRootViewController:lgvc];
     
     
