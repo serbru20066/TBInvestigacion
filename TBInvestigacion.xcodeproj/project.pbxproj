@@ -24,6 +24,13 @@
 		15D75E6818D68B7200BB3093 /* cabecera@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E6718D68B7200BB3093 /* cabecera@2x.jpg */; };
 		15D75E6C18D68BC700BB3093 /* OpcBusqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */; };
 		15D75E6D18D68BC700BB3093 /* OpcBusqViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E6B18D68BC700BB3093 /* OpcBusqViewController.xib */; };
+		726DEFAD18D69BC1002B8AF9 /* Login_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFA818D69BC1002B8AF9 /* Login_line@2x.png */; };
+		726DEFAE18D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFA918D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png */; };
+		726DEFAF18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFAA18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png */; };
+		726DEFB018D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFAB18D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png */; };
+		726DEFB118D69BC1002B8AF9 /* Post_facebook_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFAC18D69BC1002B8AF9 /* Post_facebook_small@2x.png */; };
+		726DEFB518D69BCD002B8AF9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 726DEFB318D69BCD002B8AF9 /* HomeViewController.m */; };
+		726DEFB618D69BCD002B8AF9 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 726DEFB418D69BCD002B8AF9 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,14 @@
 		15D75E6918D68BC700BB3093 /* OpcBusqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpcBusqViewController.h; sourceTree = "<group>"; };
 		15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpcBusqViewController.m; sourceTree = "<group>"; };
 		15D75E6B18D68BC700BB3093 /* OpcBusqViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OpcBusqViewController.xib; sourceTree = "<group>"; };
+		726DEFA818D69BC1002B8AF9 /* Login_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_line@2x.png"; sourceTree = "<group>"; };
+		726DEFA918D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_usernameIcon_tapped@2x.png"; sourceTree = "<group>"; };
+		726DEFAA18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Login_passwordIcon_tapped@2x.png"; sourceTree = "<group>"; };
+		726DEFAB18D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Post_facebook_small_disabled@2x.png"; sourceTree = "<group>"; };
+		726DEFAC18D69BC1002B8AF9 /* Post_facebook_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Post_facebook_small@2x.png"; sourceTree = "<group>"; };
+		726DEFB218D69BCD002B8AF9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		726DEFB318D69BCD002B8AF9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		726DEFB418D69BCD002B8AF9 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +176,9 @@
 		15D75E6018D6894300BB3093 /* TBInvestigacion */ = {
 			isa = PBXGroup;
 			children = (
+				726DEFB218D69BCD002B8AF9 /* HomeViewController.h */,
+				726DEFB318D69BCD002B8AF9 /* HomeViewController.m */,
+				726DEFB418D69BCD002B8AF9 /* HomeViewController.xib */,
 				15D75E6918D68BC700BB3093 /* OpcBusqViewController.h */,
 				15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */,
 				15D75E6B18D68BC700BB3093 /* OpcBusqViewController.xib */,
@@ -174,6 +192,11 @@
 		15D75E6618D68B6400BB3093 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				726DEFA818D69BC1002B8AF9 /* Login_line@2x.png */,
+				726DEFA918D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png */,
+				726DEFAA18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png */,
+				726DEFAB18D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png */,
+				726DEFAC18D69BC1002B8AF9 /* Post_facebook_small@2x.png */,
 				15D75E6718D68B7200BB3093 /* cabecera@2x.jpg */,
 			);
 			name = Imagenes;
@@ -254,11 +277,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				726DEFB118D69BC1002B8AF9 /* Post_facebook_small@2x.png in Resources */,
+				726DEFAD18D69BC1002B8AF9 /* Login_line@2x.png in Resources */,
 				15D75E3C18D6892600BB3093 /* InfoPlist.strings in Resources */,
+				726DEFAE18D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png in Resources */,
 				15D75E6518D6897200BB3093 /* LoguinViewController.xib in Resources */,
+				726DEFAF18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png in Resources */,
 				15D75E6D18D68BC700BB3093 /* OpcBusqViewController.xib in Resources */,
 				15D75E6818D68B7200BB3093 /* cabecera@2x.jpg in Resources */,
 				15D75E4418D6892600BB3093 /* Images.xcassets in Resources */,
+				726DEFB018D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png in Resources */,
+				726DEFB618D69BCD002B8AF9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +309,7 @@
 				15D75E6418D6897200BB3093 /* LoguinViewController.m in Sources */,
 				15D75E4218D6892600BB3093 /* AppDelegate.m in Sources */,
 				15D75E6C18D68BC700BB3093 /* OpcBusqViewController.m in Sources */,
+				726DEFB518D69BCD002B8AF9 /* HomeViewController.m in Sources */,
 				15D75E3E18D6892600BB3093 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +507,7 @@
 				15D75E5C18D6892600BB3093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15D75E5D18D6892600BB3093 /* Build configuration list for PBXNativeTarget "TBInvestigacionTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +516,7 @@
 				15D75E5F18D6892600BB3093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

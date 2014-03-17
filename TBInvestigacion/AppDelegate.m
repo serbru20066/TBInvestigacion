@@ -8,16 +8,16 @@
 
 #import "AppDelegate.h"
 #import "LoguinViewController.h"
+#import "HomeViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    LoguinViewController *lgvc=[[LoguinViewController alloc] init];
+    HomeViewController *lgvc=[[HomeViewController alloc] init];
     navCont =[[UINavigationController alloc] initWithRootViewController:lgvc];
     
-    
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
