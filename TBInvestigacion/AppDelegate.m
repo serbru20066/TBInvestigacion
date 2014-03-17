@@ -14,11 +14,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-     HomeViewController *lgvc=[[HomeViewController alloc] init];
+    HomeViewController *lgvc=[[HomeViewController alloc] init];
     navCont =[[UINavigationController alloc] initWithRootViewController:lgvc];
     
-    
-    
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

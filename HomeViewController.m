@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "OpcBusqViewController.h"
 
 
 @interface HomeViewController ()
@@ -26,6 +27,7 @@
 
 - (void)viewDidLoad
 {
+    [self.navigationController.navigationBar setHidden:YES];
     [super viewDidLoad];
     _tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
     _tap.enabled = NO;
@@ -46,6 +48,10 @@
 - (void) ingresar
 {
     NSLog(@"Ingresando");
+    OpcBusqViewController *opcVC=[[OpcBusqViewController alloc] init];
+    [self.navigationController pushViewController:opcVC animated:YES];
+    
+    
 }
 - (void)didReceiveMemoryWarning
 {
