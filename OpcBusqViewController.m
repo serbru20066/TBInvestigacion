@@ -25,6 +25,7 @@
 
 - (void)viewDidLoad
 {
+    [self.navigationController.navigationBar setHidden:NO];
     UIImageView *imgView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cabecera.jpg"]];
     
     self.navigationItem.titleView = imgView;

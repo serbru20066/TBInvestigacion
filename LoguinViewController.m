@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad
 {
-    self.title=@"Loguin Alvaro";
+    [self.navigationController.navigationBar setHidden:YES];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
@@ -38,6 +38,7 @@
 }
 
 - (IBAction)OnClickIniciarBusq:(id)sender {
+    
     
     OpcBusqViewController *opcVC=[[OpcBusqViewController alloc] init];
     [self.navigationController pushViewController:opcVC animated:YES];
