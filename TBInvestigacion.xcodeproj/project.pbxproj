@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15AFF5D518D805110070BCBD /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5D418D805110070BCBD /* fondo.jpg */; };
+		15AFF5D818D8064A0070BCBD /* mapaPeru.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5D618D8064A0070BCBD /* mapaPeru.png */; };
+		15AFF5DD18D809470070BCBD /* pastilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5DC18D809470070BCBD /* pastilla.png */; };
 		15D75E3218D6892600BB3093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D75E3118D6892600BB3093 /* Foundation.framework */; };
 		15D75E3418D6892600BB3093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D75E3318D6892600BB3093 /* CoreGraphics.framework */; };
 		15D75E3618D6892600BB3093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D75E3518D6892600BB3093 /* UIKit.framework */; };
@@ -19,8 +22,6 @@
 		15D75E4D18D6892600BB3093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D75E3518D6892600BB3093 /* UIKit.framework */; };
 		15D75E5518D6892600BB3093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E5318D6892600BB3093 /* InfoPlist.strings */; };
 		15D75E5718D6892600BB3093 /* TBInvestigacionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D75E5618D6892600BB3093 /* TBInvestigacionTests.m */; };
-		15D75E6418D6897200BB3093 /* LoguinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D75E6218D6897200BB3093 /* LoguinViewController.m */; };
-		15D75E6518D6897200BB3093 /* LoguinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E6318D6897200BB3093 /* LoguinViewController.xib */; };
 		15D75E6818D68B7200BB3093 /* cabecera@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E6718D68B7200BB3093 /* cabecera@2x.jpg */; };
 		15D75E6C18D68BC700BB3093 /* OpcBusqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */; };
 		15D75E6D18D68BC700BB3093 /* OpcBusqViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D75E6B18D68BC700BB3093 /* OpcBusqViewController.xib */; };
@@ -44,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15AFF5D418D805110070BCBD /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
+		15AFF5D618D8064A0070BCBD /* mapaPeru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapaPeru.png; sourceTree = "<group>"; };
+		15AFF5DC18D809470070BCBD /* pastilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pastilla.png; sourceTree = "<group>"; };
 		15D75E2E18D6892600BB3093 /* TBInvestigacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBInvestigacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D75E3118D6892600BB3093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		15D75E3318D6892600BB3093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +64,6 @@
 		15D75E5218D6892600BB3093 /* TBInvestigacionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBInvestigacionTests-Info.plist"; sourceTree = "<group>"; };
 		15D75E5418D6892600BB3093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		15D75E5618D6892600BB3093 /* TBInvestigacionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBInvestigacionTests.m; sourceTree = "<group>"; };
-		15D75E6118D6897200BB3093 /* LoguinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoguinViewController.h; sourceTree = "<group>"; };
-		15D75E6218D6897200BB3093 /* LoguinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoguinViewController.m; sourceTree = "<group>"; };
-		15D75E6318D6897200BB3093 /* LoguinViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoguinViewController.xib; sourceTree = "<group>"; };
 		15D75E6718D68B7200BB3093 /* cabecera@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cabecera@2x.jpg"; sourceTree = "<group>"; };
 		15D75E6918D68BC700BB3093 /* OpcBusqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpcBusqViewController.h; sourceTree = "<group>"; };
 		15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpcBusqViewController.m; sourceTree = "<group>"; };
@@ -182,9 +183,6 @@
 				15D75E6918D68BC700BB3093 /* OpcBusqViewController.h */,
 				15D75E6A18D68BC700BB3093 /* OpcBusqViewController.m */,
 				15D75E6B18D68BC700BB3093 /* OpcBusqViewController.xib */,
-				15D75E6118D6897200BB3093 /* LoguinViewController.h */,
-				15D75E6218D6897200BB3093 /* LoguinViewController.m */,
-				15D75E6318D6897200BB3093 /* LoguinViewController.xib */,
 			);
 			name = TBInvestigacion;
 			sourceTree = "<group>";
@@ -193,8 +191,11 @@
 			isa = PBXGroup;
 			children = (
 				726DEFA818D69BC1002B8AF9 /* Login_line@2x.png */,
+				15AFF5D618D8064A0070BCBD /* mapaPeru.png */,
+				15AFF5D418D805110070BCBD /* fondo.jpg */,
 				726DEFA918D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png */,
 				726DEFAA18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png */,
+				15AFF5DC18D809470070BCBD /* pastilla.png */,
 				726DEFAB18D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png */,
 				726DEFAC18D69BC1002B8AF9 /* Post_facebook_small@2x.png */,
 				15D75E6718D68B7200BB3093 /* cabecera@2x.jpg */,
@@ -278,15 +279,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				726DEFB118D69BC1002B8AF9 /* Post_facebook_small@2x.png in Resources */,
+				15AFF5D518D805110070BCBD /* fondo.jpg in Resources */,
 				726DEFAD18D69BC1002B8AF9 /* Login_line@2x.png in Resources */,
 				15D75E3C18D6892600BB3093 /* InfoPlist.strings in Resources */,
 				726DEFAE18D69BC1002B8AF9 /* Login_usernameIcon_tapped@2x.png in Resources */,
-				15D75E6518D6897200BB3093 /* LoguinViewController.xib in Resources */,
 				726DEFAF18D69BC1002B8AF9 /* Login_passwordIcon_tapped@2x.png in Resources */,
+				15AFF5D818D8064A0070BCBD /* mapaPeru.png in Resources */,
 				15D75E6D18D68BC700BB3093 /* OpcBusqViewController.xib in Resources */,
 				15D75E6818D68B7200BB3093 /* cabecera@2x.jpg in Resources */,
 				15D75E4418D6892600BB3093 /* Images.xcassets in Resources */,
 				726DEFB018D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png in Resources */,
+				15AFF5DD18D809470070BCBD /* pastilla.png in Resources */,
 				726DEFB618D69BCD002B8AF9 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D75E6418D6897200BB3093 /* LoguinViewController.m in Sources */,
 				15D75E4218D6892600BB3093 /* AppDelegate.m in Sources */,
 				15D75E6C18D68BC700BB3093 /* OpcBusqViewController.m in Sources */,
 				726DEFB518D69BCD002B8AF9 /* HomeViewController.m in Sources */,
@@ -368,7 +370,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -386,6 +389,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -406,7 +410,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: bruno cardenas torres (7UTDGZ8DN5)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -417,6 +422,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "D0E422E9-D774-4D13-82E5-8627D51B0A84";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

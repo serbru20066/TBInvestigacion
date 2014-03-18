@@ -7,6 +7,7 @@
 //
 
 #import "OpcBusqViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface OpcBusqViewController ()
 
@@ -25,14 +26,31 @@
 
 - (void)viewDidLoad
 {
+    CGRect screen      = [[UIScreen mainScreen] bounds];
     [self.navigationController.navigationBar setHidden:NO];
     UIImageView *imgView=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"cabecera.jpg"]];
-    
+   
     self.navigationItem.titleView = imgView;
     self.navigationItem.hidesBackButton = YES;
-    
+
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:(255/255.0) green:(111/255.0) blue:(0/255.0) alpha:1];
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    arrayData=[[NSArray alloc] initWithObjects:@"Busqueda de Productos",@"Farmacias en Mapa", nil];
+  
+    table=[[UITableView alloc] initWithFrame:self.view.frame];
+    table.frame=CGRectMake(0.0, 140.0 , screen.size.width , screen.size.height);
+    
+    [self.view addSubview:table];
+    table.delegate=self;
+    table.dataSource=self;
+    table.backgroundColor=[UIColor clearColor];
+    table.backgroundView.backgroundColor=[UIColor clearColor];
+    
+
+    
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -40,5 +58,52 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - Protocol UITableViewDataSource
+
+- (NSInteger) numberOfSectionsInTableView: (UITableView *) tableView
+{
+    return 1;
+}
+- (NSInteger) tableView: (UITableView *) tableView
+  numberOfRowsInSection: (NSInteger) section
+{
+    return [arrayData count];
+}
+
+
+- (UITableViewCell *) tableView: (UITableView *) tableView
+          cellForRowAtIndexPath: (NSIndexPath *) indexPath
+{
+    static NSString *CellIdentifier = @"CellIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                             CellIdentifier];
+    if (!cell)
+        cell = [[UITableViewCell alloc] initWithStyle:
+                UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
+
+    cell.textLabel.text=[arrayData objectAtIndex:indexPath.row];
+    cell.textLabel.font=[UIFont fontWithName:@"American Typewriter" size:18];
+    cell.textLabel.backgroundColor=[UIColor clearColor];
+    [cell setBackgroundColor:[UIColor clearColor]];
+    [cell setTextColor:[UIColor whiteColor]];
+    if (indexPath.row==0)
+    cell.imageView.image=[UIImage imageNamed:@"pastilla.png"];
+    if (indexPath.row==1)
+    cell.imageView.image=[UIImage imageNamed:@"mapaPeru.png"];
+    return cell;
+}
+
+
+
+#pragma mark - Protocol UITableViewDelegate
+
+- (CGFloat) tableView: (UITableView *) tableView
+heightForRowAtIndexPath: (NSIndexPath *) indexPath
+{
+    return 150.0;
+}
+
+
 
 @end

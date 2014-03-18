@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OpcBusqViewController : UIViewController
+@interface OpcBusqViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+{
+    NSArray *arrayData;
+    UITableView *table;
+    
+    NSAttributedString *text1;
+    NSAttributedString *text2;
+    NSAttributedString *text3;
+    NSAttributedString *text4;
+}
 
 @end
