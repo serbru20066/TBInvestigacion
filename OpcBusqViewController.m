@@ -82,16 +82,28 @@
         cell = [[UITableViewCell alloc] initWithStyle:
                 UITableViewCellStyleDefault reuseIdentifier: CellIdentifier];
 
+    //Cutomizacion de la celda
     cell.textLabel.text=[arrayData objectAtIndex:indexPath.row];
     cell.textLabel.font=[UIFont fontWithName:@"American Typewriter" size:18];
     cell.textLabel.backgroundColor=[UIColor clearColor];
     [cell setBackgroundColor:[UIColor clearColor]];
-    [cell setTextColor:[UIColor whiteColor]];
+    [cell setTintColor:[UIColor blackColor]];
+    
+    //imagen icono de la celda
     if (indexPath.row==0)
     cell.imageView.image=[UIImage imageNamed:@"pastilla.png"];
     if (indexPath.row==1)
     cell.imageView.image=[UIImage imageNamed:@"mapaPeru.png"];
+    
+    //Fondo celda seleccionada
+    UIView *bgColorView = [[UIView alloc] init];
+    bgColorView.backgroundColor = [UIColor colorWithRed:(59.0f/255.0f) green:(152.0f/255.0f) blue:(40.0f/255.0f) alpha:0.7];
+    bgColorView.layer.cornerRadius = 7;
+    bgColorView.layer.masksToBounds = YES;
+    [cell setSelectedBackgroundView:bgColorView];
+    
     return cell;
+ 
 }
 
 
@@ -103,7 +115,6 @@ heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
     return 150.0;
 }
-
 
 
 @end

@@ -14,7 +14,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b9a-Vb-Y21">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondofarmacia.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="b9a-Vb-Y21">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
@@ -25,6 +25,6 @@
         </view>
     </objects>
     <resources>
-        <image name="fondo.jpg" width="626" height="467"/>
+        <image name="fondofarmacia.jpg" width="1080" height="1920"/>
     </resources>
 </document>

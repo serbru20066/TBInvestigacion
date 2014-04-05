@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>34FB89EC-44EA-4B9F-A101-4DAB902BDA02</string>
+	<string>1D3BBB35-3E06-4C99-99B2-5D3659CDD554</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TBInvestigacion</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>FC92A8D2-C319-40EB-B981-8AD9F6F683B6</key>
+		<key>951E8808-67E3-4AD6-8679-6F8C287DB101</key>
 		<string>https://github.com/serbru20066/TBInvestigacion.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TBInvestigacion.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>FC92A8D2-C319-40EB-B981-8AD9F6F683B6</key>
+		<key>951E8808-67E3-4AD6-8679-6F8C287DB101</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>FC92A8D2-C319-40EB-B981-8AD9F6F683B6</string>
+	<string>951E8808-67E3-4AD6-8679-6F8C287DB101</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>FC92A8D2-C319-40EB-B981-8AD9F6F683B6</string>
+			<string>951E8808-67E3-4AD6-8679-6F8C287DB101</string>
 			<key>IDESourceControlWCCName</key>
 			<string>TBInvestigacion</string>
 		</dict>

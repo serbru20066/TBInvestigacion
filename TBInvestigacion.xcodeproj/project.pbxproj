@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15ADA66C18F067DE00C019D1 /* fondofarmacia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15ADA66B18F067DE00C019D1 /* fondofarmacia.jpg */; };
+		15ADA67818F06AB100C019D1 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ADA66F18F06AB100C019D1 /* NSDate+TimeAgo.m */; };
+		15ADA67918F06AB100C019D1 /* NSDateFormatter+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ADA67118F06AB100C019D1 /* NSDateFormatter+JSON.m */; };
+		15ADA67B18F06AB100C019D1 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ADA67518F06AB100C019D1 /* NSString+Extensions.m */; };
+		15ADA67C18F06AB100C019D1 /* NSString+PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ADA67718F06AB100C019D1 /* NSString+PhoneNumber.m */; };
+		15ADA67F18F06B3600C019D1 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 15ADA67E18F06B3600C019D1 /* UIColor+Extensions.m */; };
 		15AFF5D518D805110070BCBD /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5D418D805110070BCBD /* fondo.jpg */; };
 		15AFF5D818D8064A0070BCBD /* mapaPeru.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5D618D8064A0070BCBD /* mapaPeru.png */; };
 		15AFF5DD18D809470070BCBD /* pastilla.png in Resources */ = {isa = PBXBuildFile; fileRef = 15AFF5DC18D809470070BCBD /* pastilla.png */; };
@@ -45,6 +51,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15ADA66B18F067DE00C019D1 /* fondofarmacia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondofarmacia.jpg; sourceTree = "<group>"; };
+		15ADA66E18F06AB100C019D1 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		15ADA66F18F06AB100C019D1 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		15ADA67018F06AB100C019D1 /* NSDateFormatter+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+JSON.h"; sourceTree = "<group>"; };
+		15ADA67118F06AB100C019D1 /* NSDateFormatter+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+JSON.m"; sourceTree = "<group>"; };
+		15ADA67418F06AB100C019D1 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		15ADA67518F06AB100C019D1 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		15ADA67618F06AB100C019D1 /* NSString+PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PhoneNumber.h"; sourceTree = "<group>"; };
+		15ADA67718F06AB100C019D1 /* NSString+PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PhoneNumber.m"; sourceTree = "<group>"; };
+		15ADA67D18F06B3600C019D1 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		15ADA67E18F06B3600C019D1 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
 		15AFF5D418D805110070BCBD /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
 		15AFF5D618D8064A0070BCBD /* mapaPeru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapaPeru.png; sourceTree = "<group>"; };
 		15AFF5DC18D809470070BCBD /* pastilla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pastilla.png; sourceTree = "<group>"; };
@@ -102,6 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15ADA66D18F06AA800C019D1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				15ADA67D18F06B3600C019D1 /* UIColor+Extensions.h */,
+				15ADA67E18F06B3600C019D1 /* UIColor+Extensions.m */,
+				15ADA66E18F06AB100C019D1 /* NSDate+TimeAgo.h */,
+				15ADA66F18F06AB100C019D1 /* NSDate+TimeAgo.m */,
+				15ADA67018F06AB100C019D1 /* NSDateFormatter+JSON.h */,
+				15ADA67118F06AB100C019D1 /* NSDateFormatter+JSON.m */,
+				15ADA67418F06AB100C019D1 /* NSString+Extensions.h */,
+				15ADA67518F06AB100C019D1 /* NSString+Extensions.m */,
+				15ADA67618F06AB100C019D1 /* NSString+PhoneNumber.h */,
+				15ADA67718F06AB100C019D1 /* NSString+PhoneNumber.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		15D75E2518D6892600BB3093 = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +211,7 @@
 		15D75E6018D6894300BB3093 /* TBInvestigacion */ = {
 			isa = PBXGroup;
 			children = (
+				15ADA66D18F06AA800C019D1 /* Categories */,
 				726DEFB218D69BCD002B8AF9 /* HomeViewController.h */,
 				726DEFB318D69BCD002B8AF9 /* HomeViewController.m */,
 				726DEFB418D69BCD002B8AF9 /* HomeViewController.xib */,
@@ -190,6 +225,7 @@
 		15D75E6618D68B6400BB3093 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				15ADA66B18F067DE00C019D1 /* fondofarmacia.jpg */,
 				726DEFA818D69BC1002B8AF9 /* Login_line@2x.png */,
 				15AFF5D618D8064A0070BCBD /* mapaPeru.png */,
 				15AFF5D418D805110070BCBD /* fondo.jpg */,
@@ -291,6 +327,7 @@
 				726DEFB018D69BC1002B8AF9 /* Post_facebook_small_disabled@2x.png in Resources */,
 				15AFF5DD18D809470070BCBD /* pastilla.png in Resources */,
 				726DEFB618D69BCD002B8AF9 /* HomeViewController.xib in Resources */,
+				15ADA66C18F067DE00C019D1 /* fondofarmacia.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,8 +346,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15ADA67818F06AB100C019D1 /* NSDate+TimeAgo.m in Sources */,
 				15D75E4218D6892600BB3093 /* AppDelegate.m in Sources */,
 				15D75E6C18D68BC700BB3093 /* OpcBusqViewController.m in Sources */,
+				15ADA67C18F06AB100C019D1 /* NSString+PhoneNumber.m in Sources */,
+				15ADA67B18F06AB100C019D1 /* NSString+Extensions.m in Sources */,
+				15ADA67F18F06B3600C019D1 /* UIColor+Extensions.m in Sources */,
+				15ADA67918F06AB100C019D1 /* NSDateFormatter+JSON.m in Sources */,
 				726DEFB518D69BCD002B8AF9 /* HomeViewController.m in Sources */,
 				15D75E3E18D6892600BB3093 /* main.m in Sources */,
 			);
