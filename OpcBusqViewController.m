@@ -47,9 +47,6 @@
     table.backgroundColor=[UIColor clearColor];
     table.backgroundView.backgroundColor=[UIColor clearColor];
     
-
-    
-    
     
 }
 
